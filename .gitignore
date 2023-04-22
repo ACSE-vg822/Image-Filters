@@ -1,0 +1,22 @@
+# Auxiliary files
+.DS_Store
+
+# vscode folders
+.vscode
+
+# dSYM files
+src/*.dSYM
+
+# executables
+src/minimal
+src/image
+src/filter
+src/folder
+src/volume
+src/slice
+src/.vs
+src/vidushee_main.cpp
+
+# Images
+src/*.png
+Scans/*
