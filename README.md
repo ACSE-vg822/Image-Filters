@@ -12,11 +12,11 @@ The C++ version and the version should be C++17 at least.
 Run `main.cpp` file, then following the prompts to enter the name of the image. Choosing the different filter to process the image. The reuslt will store in `output` 
 folder. Ensure there's a folder called "Scans" in parent directory containing the correct 3D image volumes.
 
-The commend is shown below:  
+The command is shown below:  
   
 ```g++-12 -o user_interface user_interface.cpp kernels.cpp conv_tool.cpp image.cpp volume.cpp filter.cpp projection.cpp slice.cpp```
 
-if you want run all the result you have to use the commond below:  
+if you want run all the filters you have to use the commond below:  
   
 ```g++-12 -o main main.cpp kernels.cpp conv_tool.cpp image.cpp volume.cpp filter.cpp projection.cpp slice.cpp```
 
@@ -34,12 +34,12 @@ Detailed descriptions of all filters are presented in the report for aggregation
 ## Example Output
 ![image](https://user-images.githubusercontent.com/110220811/227563409-6c6f7649-07f5-40c1-81a5-afc0d9979300.png)
 
-The image show the ouput picture by applying the sobel and gaussian blur for edge detection.
+The image shown is the ouput picture after applying the sobel and gaussian blur for edge detection.
 
 The following link is the data volume after blurring:
 https://drive.google.com/file/d/19VB5SM6FYKk5vbDYsoN7GThcU8t3UN-w/view?usp=sharing
 
 ## More information
-For more information ont the project specfication or the output, please see the PDF `AdvProg_ProjectDescription.pdf` and `output` floder.
+For more information ont the project specfication or the output, please see the PDF `AdvProg_ProjectDescription.pdf` and `output` folder.
 
-All user should create the new folder by themselves for saving there output before using the programme
+All users should create a new folder by themselves for saving there output before using the programme.
